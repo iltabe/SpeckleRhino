@@ -38,8 +38,8 @@ In order to debug/build Speckle for Rhino:
     1. Drag&Drop `~/SpekleRhino/Debug/SpeckleGrasshopper.gha` into Grasshopper canvas.
 
 ## Common Issues
-1. If during the installation of the `rhp` file you get a "SpeckleKits" missing folder (see #119). Please manually create it in `%localappdata%/SpeckleKits`.
-1. By default, Speckle does not come with an object model. To actually be able to convert to and from Rhino when building/debugging, please clone and build the [SpeckleCoreGeometry](https://github.com/speckleworks/SpeckleCoreGeometry) repository and copy all `.dll`s inside `%localappdata%/SpeckleKits`
+1. By default, Speckle does not come with an object model. To actually be able to convert to and from Rhino when building/debugging, please clone and build the [SpeckleCoreGeometry](https://github.com/speckleworks/SpeckleCoreGeometry) repository using `Debug mode`.
+1. If during the installation of the `rhp` file you get a "SpeckleKits" missing folder. Please manually create it in `%localappdata%/SpeckleKits`.
 
 ## License 
 MIT 
